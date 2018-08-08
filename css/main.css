@@ -249,7 +249,7 @@ header::after{
 	top: 20px;
 }
 
-.about, .seminar{
+.about, .seminar, .message{
 	font-size: 36px;
 	color: #420b2a;
 	font-family: "le-monde-livre-classic-sc",serif;
