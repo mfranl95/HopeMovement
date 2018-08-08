@@ -105,6 +105,7 @@ header::after{
 	color: #fff;
 	display: block;
 	font-size: 16px;
+	font-family: "le-monde-livre-classic-sc",serif;
 	text-decoration: none;
 	text-align: center;
 	padding: 10px 5px 10px 30px;
@@ -126,6 +127,7 @@ header::after{
 .title{
 	font-size: 13px;
 	color: #fff;
+	font-family: "le-monde-livre-classic-sc",serif;
 	letter-spacing: 3px;
 	padding-top: 0px;
 	margin-right:0;
@@ -247,7 +249,7 @@ header::after{
 	top: 20px;
 }
 
-h2{
+.about{
 	font-size: 36px;
 	color: #420b2a;
 	font-family: "le-monde-livre-classic-sc",serif;
