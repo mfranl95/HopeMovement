@@ -1,4 +1,4 @@
- @import url("https://use.typekit.net/gcf4qpn.css");
+  @import url("https://use.typekit.net/dgz8sld.css");
 
 *{
 	margin:0;
@@ -48,6 +48,7 @@ header::after{
 
 .slogan{
 	font-size: 16px;
+	font-family: "le-monde-livre-classic-sc",serif;
 	color: #fff;
 	letter-spacing: 3px;
 	text-align: center;
@@ -249,7 +250,7 @@ header::after{
 h2{
 	font-size: 36px;
 	color: #420b2a;
-	font-family: "malaga-narrow",serif;
+	font-family: "le-monde-livre-classic-sc",serif;
 	text-align: left;
 	padding-top: 5px;
 	letter-spacing: 4px;
@@ -313,6 +314,7 @@ img{
 
 .testimony{
 	font-size: 36px;
+	font-family: "le-monde-livre-classic-sc",serif;
 	color: #9b7794;
 	text-transform: uppercase;
 	font-weight: 400;
@@ -342,6 +344,7 @@ img{
 
 .seminars{
 	font-size: 36px;
+	font-family: "le-monde-livre-classic-sc",serif;
 	color: #420b2a;	
 	text-transform: uppercase;
 	font-weight: 400;
@@ -388,7 +391,7 @@ img{
 .product-title{
 	font-size: 36px;
 	color: #420b2a;
-	font-family: "fenway-park-jf",sans-serif;
+	font-family: "le-monde-livre-classic-sc",serif;
 	text-align: center;
 	padding-top: 5px;
 	letter-spacing: 4px;
