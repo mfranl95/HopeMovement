@@ -6,33 +6,37 @@
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link rel="stylesheet" href="https://use.typekit.net/dgz8sld.css">
+	<link rel="stylesheet" href="https://use.typekit.net/opn7dui.css">
+	<link rel="stylesheet" href="https://use.typekit.net/fhu8mgt.css">
 
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
 </head>
 <body>
-	<!--Sidebar-->
-	<div id="sidebar">
+	<div class="sidebar">
 		<header>
-		<a href="index.html"><img src="img/logo.png" alt="logo" class="logo"></a>
-		<h1 class="title">HOPE MOVEMENT</h1>
-	</header>
-		<div class="sidenav">
+			<a href="index.html"><img src="img/logo.png" alt="logo" class="logo"></a>
+			<h1 class="title">HOPE MOVEMENT</h1>
+		</header>
+		<div class="nav">
 			<a href="index.html">Home</a>
 			<a href="seminars.html">Seminars</a>
-			<a href="products.html">Products</a>
+			<a class="active" href="products.html">Products</a>
 			<a href="contact.html#contact">Contact</a>
 		</div>
 		<div class="side-quote">
-			<p>"We have a secret in our culture, and it’s not that birth is painful. It’s that women <br>are strong." <br><br><strong>-Laura Stavoe Harm</strong></p>
+			<p>"We have a secret in our culture, and it's not that birth is painful. It's that <span>women are strong.</span>"
+			<br><br><strong>-Laura Stavoe Harm</strong></p>
 		</div>
 	</div>
-	<header class="main">
-			<a href="index.html"><h3 class="slogan">"PRODUCTS"</h3></a>
+	<div class="main">
+		<header class="header">
+			<h3 class="slogan">"Proceeds will go to Every Mother Counts"</h3>
 			<div class="header-social">
 				<a href="#"><i class="fab fa-facebook-f"></i></a>
 				<a href="#"><i class="fab fa-twitter"></i></a>
@@ -40,37 +44,54 @@
 				<a href="#"><i class="fab fa-snapchat"></i></a>
 			</div>
 		</header>
-	<div id="main">
-	<div id="product-section">
-		<div class="container">
-			<a name="books"><h2 class="product-title">Books</h2></a>
-			<div class="row">				
-				<div class="col-md-4">
+		
+		<section class="product-section">
+			<div class="container">
+				<a name="books"><h2 class="product-title">Books</h2></a>
+			<div class="row">
+				<div class="col-md-3">
 					<img class="books" src="img/motherhood-career.jpg">
 					<h4>$18.95</h4>
-					<div>
-						<a class="shop-btn" href="#">Add to Cart<span><i class="fas fa-shopping-cart"></i></span></a>
-					</div>
+					<a class="shop-btn" href="#">Add to Cart<span><i class="fas fa-shopping-cart"></i></span></a>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-3">
 					<img class="books" src="img/empowering-motherhood-3.jpg">
 					<h4>$18.95</h4>
-					<div>
-						<a class="shop-btn" href="#">Add to Cart<span><i class="fas fa-shopping-cart"></i></span></a>
-					</div>
+					<a class="shop-btn" href="#">Add to Cart<span><i class="fas fa-shopping-cart"></i></span></a>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-3">
 					<img class="books" src="img/high-heel-effect.jpg">
 					<h4>$18.95</h4>
-					<div>
-						<a class="shop-btn" href="#">Add to Cart<span><i class="fas fa-shopping-cart"></i></span></a>
-					</div>
-				</div>
+					<a class="shop-btn" href="#">Add to Cart<span><i class="fas fa-shopping-cart"></i></span></a>
+				</div>	
 			</div>
 		</div>
-	</div>
+		</section>
 
-	<footer>
+		<section class="product-section">
+			<div class="container">
+			<a name="apparel"><h2 class="product-title">Apparel</h2></a>
+			<div class="row">
+				<div class="col-md-3">
+					<img class="apparel" src="img/do-it-all.jpg">
+					<h4>$15.00</h4>
+					<a class="shop-btn" href="#">Add to Cart<span><i class="fas fa-shopping-cart"></i></span></a>
+				</div>
+				<div class="col-md-3">
+					<img class="apparel" src="img/tote.jpg">
+					<h4>$7.00</h4>
+					<a class="shop-btn" href="#">Add to Cart<span><i class="fas fa-shopping-cart"></i></span></a>
+				</div>
+				<div class="col-md-3">
+					<img class="apparel" src="img/iphone-case.jpg">
+					<h4>$8.50</h4>
+					<a class="shop-btn" href="#">Add to Cart<span><i class="fas fa-shopping-cart"></i></span></a>
+				</div>	
+			</div>
+		</div>
+		</section>
+
+		<footer>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-2 .offset-md-2">
@@ -95,22 +116,26 @@
 						<li><a href="seminars.html#superwoman">Superwoman</a></li>
 					</ul>
 				</div>
-			</div>
-			<div class="row">
-				<p class="copyright">Copyright &copyHopeMovement 2018 | ALL RIGHTS RESERVED</p>
-			</div>
-				<div class="footer-social">
+				<div class="col-md-2">
+					<h5 class="footer-title">Connect</h5>
+					<div class="footer-social">
 					<a href="#"><i class="fab fa-facebook-f"></i></a>
 					<a href="#"><i class="fab fa-twitter"></i></a>
 					<a href="#"><i class="fab fa-instagram"></i></a>
 					<a href="#"><i class="fab fa-snapchat"></i></a>
 				</div>
+				</div>
+			</div>
+			<div class="row">
+				<p class="copyright">Copyright &copyHopeMovement 2018 | ALL RIGHTS RESERVED</p>
 			</div>
 		</div>
-	</footer>
+		</footer>
 	</div>
-	<!--Footer Section-->
-	</div>
-	
+
+		
+		
+		
+		
 </body>
 </html>
