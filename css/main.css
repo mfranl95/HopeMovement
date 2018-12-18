@@ -320,7 +320,7 @@ img{/*all pages */
   font-size:20px;
   font-weight:normal;
   font-style:italic;
-  color:#5b4144;
+  color:#000;
   line-height: 30px;
   margin-bottom: 10px;
   letter-spacing: 1px;
@@ -334,7 +334,7 @@ img{/*all pages */
 .cust-quotes blockquote cite {
     text-align: center;
     font-size: 16px;
-    color: #c99292;
+    color: #000;
     letter-spacing: 1px;
 }
 .cust-quotes blockquote cite a {
@@ -374,8 +374,9 @@ img{/*all pages */
 }
 
 .info-btn{
-	background-color: #c99292;
-	color: #fff;
+	background-color: #fff;
+	color: #000;
+	border: 1px solid #000;
 	font-size: 16px;
 	font-weight: 400;
 	width: 300px;
