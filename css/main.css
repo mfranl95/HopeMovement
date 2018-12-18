@@ -561,7 +561,7 @@ h4{
 .contact{
 	height: 465px;
 	border: 0.5px solid #c99292;
-	background: linear-gradient(to right, #c99292, #764e4e);
+	background: #000);
 	border-radius: 4px;
 	width:30%;
 }
@@ -598,7 +598,7 @@ textarea{
 
 .submit-btn{
 	background-color: #fff;
-	color: #c99292;
+	color: #000;
 	font-size: 16px;
 	font-weight: 400;
 	width: 300px;
@@ -614,7 +614,7 @@ textarea{
 }
 
 .submit-btn:hover{
-	background-color: #c99292;
+	background-color: #e3c57e;
 	color: #fff;
 	width: 240px;
 	text-decoration: none;
