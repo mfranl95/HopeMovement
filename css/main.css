@@ -515,8 +515,8 @@ h4{
 }
 
 .shop-btn{
-	background-color: #000;
-	color: #e3c57e;
+	background-color: #c0c0c0;
+	color: #000;
 	font-size: 16px;
 	font-weight: 400;
 	width: 300px;
@@ -532,7 +532,7 @@ h4{
 }
 
 .shop-btn:hover{
-	background-color: #fff;
+	background-color: #e3c57e;
 	color: #000;
 	width: 240px;
 	text-decoration: none;
