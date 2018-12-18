@@ -280,7 +280,8 @@ img{/*all pages */
 	width: 100%;
 	padding: 60px;
 	margin-top: 15px;
-	border: 1px solid #5b4144;
+	border: 1px solid #000;
+	background: #c0c0c0;
 }
 
 .cust-quotes {
