@@ -26,7 +26,9 @@ body{
 .sidebar{
   float:left;
   width:25%;
-  background-color:#c99292;
+  background-color:#ffffff;
+  border-right: 1px solid #000000;
+  border-bottom: 1px solid #000000;
  
 }
 
@@ -59,7 +61,7 @@ body{
 }
 
 .nav a{
-	color: #fff;
+	color: #000000;
 	display: block;
 	font-size: 24px;
 	font-family: "mrs-eaves-roman-all-petite-c",sans-serif;
@@ -70,12 +72,12 @@ body{
 }
 
 .nav a:hover{
-	color: #9b7794;
+	color: #e3c57e;
 	text-decoration: none;
 }
 
 .active{
-	background: #764e4e;
+	background: #e3c57e;
 }
 
 .side-quote{
@@ -86,7 +88,7 @@ body{
 .side-quote p{/*ALL PAGES */
 	font-size: 14px;
 	font-family: "bebas-neue",sans-serif;
-	color: #fff;
+	color: #000;
 	margin:15px 0 0 5px;
 	padding-top: 5px;
 	letter-spacing: 2px;
@@ -94,7 +96,7 @@ body{
 }
 
 .side-quote span{/*ALL PAGES */
-	color: #764e4e;
+	color: #e3c57e;
 	font-size: 16px;
 	font-family: "bebas-neue",sans-serif;
 	font-weight: bold!important;
@@ -124,7 +126,7 @@ body{
 }
 
 .header{
-	background:#5b4144;
+	background:#000000;
 	padding-bottom: 30px;
 	height: 50px;
 	position: fixed;
@@ -344,7 +346,7 @@ img{/*all pages */
 	width: 100%;
 	padding-top: 40px;
 	margin-top: 15px;
-	background-color: #764e4e;
+	background-color: #e3c57e;
 }
 
 .seminar-section h2{
@@ -609,7 +611,7 @@ textarea{
 
 /*Footer */
 footer{
-	background-color: #5b4144;
+	background-color: #000000;
 	width: 100%;
 	clear: both;
 	margin-top: 15px;
