@@ -72,7 +72,7 @@ body{
 }
 
 .nav a:hover{
-	color: #e3c57e;
+	color: #000;
 	text-decoration: none;
 }
 
@@ -244,7 +244,7 @@ video{
 
 h2{
 	font-size: 48px;
-	color: #5b4144;
+	color: #000;
 	font-family: "mrs-eaves-roman-all-petite-c",sans-serif!important;
 	text-align: left;
 	padding-top: 5px;
@@ -256,7 +256,7 @@ h2{
 .info{
 	font-size: 18px;
 	font-family: "bebas-neue",sans-serif;
-	color: #764e4e;
+	color: #000;
 	text-align: left;
 	letter-spacing: 2px;
 	align-content: center;
@@ -352,7 +352,7 @@ img{/*all pages */
 .seminar-section h2{
 	font-size: 36px;
 	font-family: "mrs-eaves-roman-all-petite-c",sans-serif;
-	color: #fff;	
+	color: #000;	
 	text-transform: uppercase;
 	font-weight: 400;
 	text-align: center;
@@ -364,7 +364,7 @@ img{/*all pages */
 
 .seminar-section p{
 	font-size: 18px;
-	color: #fff;
+	color: #000;
 	text-align: center;
 	letter-spacing: 2px;
 	align-content: center;
